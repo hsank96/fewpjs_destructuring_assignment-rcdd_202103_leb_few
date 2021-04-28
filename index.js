@@ -34,6 +34,8 @@ const [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ");
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
+const ["bessie", , "dolly", "babe", "Little"] = farmAnimals.split(" ");
+
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
 
 // Arrays
