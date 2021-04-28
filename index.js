@@ -1,7 +1,5 @@
 const farmAnimals = 'cow horse sheep pig chicken';
 
-const animal_sounds = farmAnimals.split(" ");
-
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 const muppet = {
@@ -30,6 +28,9 @@ const nestedMuppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+
+const [moo, neigh, sheep_sound, oink, buck] = farmAnimals.split(" ");
+
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
